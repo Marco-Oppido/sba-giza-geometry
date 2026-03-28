@@ -20,7 +20,7 @@ Current results using standard archaeological working values show residuals of *
 ## 📂 Repository Structure
 
 * `main.tex` - The IEEE-style LaTeX source code of the paper.
-* `pyramids_SBA_proofbench.py` - The Python script containing the dimensional data, target constant calculations, and Monte Carlo uncertainty analysis.
+* `[sba_pyramid_proofbench.py](https://github.com/Marco-Oppido/sba-giza-geometry/blob/main/sba_pyramid_proofbench.py)` - The Python script containing the dimensional data, target constant calculations, and Monte Carlo uncertainty analysis.
 * `figures/` - Directory containing the generated output plots (Endpoint Ratios and Monte Carlo Intervals) required for the LaTeX compilation.
 
 ## 🚀 How to Run
@@ -32,7 +32,7 @@ pip install numpy matplotlib
 ```
 Execute the analysis script:
 ```bash
-python pyramids_SBA_proofbench.py
+python sba_pyramid_proofbench.py
 ```
 *This will print the endpoint calculations, run the Monte Carlo uncertainty simulations, and automatically save the required `.png` plots into the `figures/` folder.*
 
